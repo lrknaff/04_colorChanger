@@ -1,0 +1,32 @@
+body {
+  background-color: white;
+  text-align: center;
+}
+
+.buttons {
+  position: relative;
+  margin: auto;
+  margin-top: 250px;
+}
+
+input {
+  background-color: #e5b6d5;
+  border: 5px solid;
+  border-color: #b2479a #cc7fb5;
+  color: white;
+  font-family: 'Open Sans', serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin: 15px;
+  width: 150px;
+  height: 70px;
+  display: inline-block;
+}
+
+input:hover {
+  background-color: #b2479a;
+  border-color: #cc7fb5 #e5b6d5;
+  cursor: pointer;
+}
