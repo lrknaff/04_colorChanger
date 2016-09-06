@@ -1,14 +1,15 @@
-function getRandomColor(randomColor) {
+function getRandomColor() {
   var letter = '0123456789ABCDEF';
   var randomColor = '#';
   for (var i = 0; i < 6; i++) {
     randomColor += letter[Math.floor(Math.random() * 16)];
   }
-  return randomColor;
+  changeBackgroundColor(randomColor);
 };
 
-function changeBackgroundColor() {
-  $('body').css('background-color', );
+function changeBackgroundColor(randomColor) {
+  $('body').css('background-color', randomColor);
+  console.log('randomColor');
 };
 
 // $('#reset-button').on('submit', function() )
