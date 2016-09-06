@@ -12,4 +12,15 @@ function changeBackgroundColor(randomColor) {
   console.log('randomColor');
 };
 
-// $('#reset-button').on('submit', function() )
+// function resetBackgroundColor() {
+//   $('body').css('bakcground-color', #fff);
+// };
+
+$('#random-button').on('click', function(randomColor) {
+  getRandomColor();
+  changeBackgroundColor(randomColor);
+});
+
+// $('#reset-button').on('click', funtction() {
+//   resetBackgroundColor();
+// });
