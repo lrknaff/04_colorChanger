@@ -19,6 +19,10 @@ function resetBackgroundColor() {
 $('#random-button').on('click', function(randomColor) {
   getRandomColor();
   changeBackgroundColor(randomColor);
+  if (randomColor === '#ffffff') {
+    getRandomColor();
+    changeBackgroundColor();
+  };
 });
 
 $('#reset-button').on('click', function() {
